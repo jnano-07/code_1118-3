@@ -18,7 +18,7 @@ function showLed (x: number, y: number, dir: number) {
             led.plot(x1, y1)
             led.plot(x2, y2)
         }
-        basic.pause(1000)
+        basic.pause(200)
         x = x - 1
         y = y + 1
     }
